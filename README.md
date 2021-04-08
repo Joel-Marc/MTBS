@@ -1,4 +1,4 @@
-# MULTI-THREAD IMPLIMENTATION OF BINARY SEARCH
+# MULTI-THREAD IMPLEMENTATION OF BINARY SEARCH
 
 ## TO RUN :
 1. Add execution privileges to main.sh by using ```chmod +x main.sh```
