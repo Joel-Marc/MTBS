@@ -16,9 +16,9 @@ Execution time was 426393700 nanoseconds. 0.426394 seconds
 ```
 
 
-- **1.cpp :** Multi-thread implementation of BS using POSIX pthread. basic idea is dividing the whole array by the no of threads thus the search runs parallelly on each of the defined spaces. For Ex: if we have a 1000 element array and 4 threads each thread will run for 250 elements , i.e. , first thread will search b/w 0-250 , second 250-500 and so on. Synchronization here not necessary because of no critical region.
+- **1.cpp :** Multi-thread implementation of BS using POSIX pthread. basic idea is dividing the whole array by the no of threads thus the search runs parallelly on each of the defined spaces. For Ex: if we have a 1000 element array and 4 threads each thread will run for 250 elements , i.e. , first thread will search b/w 0-250 , second 250-500 and so on. Synchronization here not necessary because of no critical region. The value to be searched is 69420 which is not in the array which is loaded in by the file , this is to test the worst case time complexity (For BS worst case is the element not being present).
   
-- **3.cpp :** Iterative implementation of BS . It is just there to contrast the speed difference b/w with threads and without threads.
+- **3.cpp :** Iterative implementation of BS . It is just there to contrast the speed difference b/w with threads and without threads. Similarly here also the value to be searched is 69420 which is not in the array which is loaded in by the file , this is to test the worst case time complexity (For BS worst case is the element not being present).
 
 - **main.sh :** A shell script that loads 1000 random values into a new file data.txt , compiles and runs the code and also displays the time taken to run by both of these implementations . Finally deletes the data.txt file.
 
