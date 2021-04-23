@@ -16,7 +16,7 @@ Execution time was 426393700 nanoseconds. 0.426394 seconds
 ```
 
 
-- **1.cpp :** Multi-thread implementation of BS using POSIX pthread. basic idea is dividing the whole array by the no of threads thus the search runs parallelly on each of the defined spaces. Foe Ex: if we have a 1000 element array and 4 threads each thread will run for 250 elements , i.e. , first thread will search b/w 0-250 , second 250-500 and so on. Synchronization here not necessary because of no critical region.
+- **1.cpp :** Multi-thread implementation of BS using POSIX pthread. basic idea is dividing the whole array by the no of threads thus the search runs parallelly on each of the defined spaces. For Ex: if we have a 1000 element array and 4 threads each thread will run for 250 elements , i.e. , first thread will search b/w 0-250 , second 250-500 and so on. Synchronization here not necessary because of no critical region.
   
 - **3.cpp :** Iterative implementation of BS . It is just there to contrast the speed difference b/w with threads and without threads.
 
