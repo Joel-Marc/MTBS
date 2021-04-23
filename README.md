@@ -20,5 +20,5 @@ Execution time was 426393700 nanoseconds. 0.426394 seconds
   
 - **3.cpp :** Iterative implementation of BS . It is just there to contrast the speed difference b/w with threads and without threads. Similarly here also the value to be searched is 69420 which is not in the array which is loaded in by the file , this is to test the worst case time complexity (For BS worst case is the element not being present).
 
-- **main.sh :** A shell script that loads 1000 random values into a new file data.txt , compiles and runs the code and also displays the time taken to run by both of these implementations . Finally deletes the data.txt file.
+- **main.sh :** A shell script that loads 1000 random values (b/w 0-9992) into a new file data.txt , compiles and runs the code and also displays the time taken to run by both of these implementations . Finally deletes the data.txt file.
 
